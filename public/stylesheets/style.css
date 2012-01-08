@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color:transparent;
+}
+
+html {
+  height: 100%;
+
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#eee), to(#fff));
+  
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #eee, #fff);
+  
+  /* Firefox 3.6+ */ 
+  background: -moz-radial-gradient(circle, #eee, #fff);
+  
+  /* IE 10 */ 
+  background: -ms-radial-gradient(circle, #eee, #fff);
+
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  width: 330px;
+}
+
+p#twss {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p#twss.yes {
+  color: green;
+}
+
+p#twss.no {
+  color: red;
+}
+
+p#info {
+  text-align: left;
+  font-size: 11px;
+  display: inline;
+}
